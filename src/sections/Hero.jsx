@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import './Hero.css'
 
-const roles = ['Full Stack Developer', 'MERN Stack Dev', 'React Engineer', 'API Builder']
+const roles = ['Full Stack Developer', 'MERN Stack Dev', 'React Engineer', 'Problem Solver']
 
 export default function Hero() {
   const roleRef = useRef(null)
@@ -63,7 +63,7 @@ export default function Hero() {
         </h1>
 
         <div className="hero-role">
-          <span className="role-prefix">I build </span>
+          <span className="role-prefix">I'm a </span>
           <span ref={roleRef} className="role-typed" />
           <span className="cursor-blink">|</span>
         </div>
